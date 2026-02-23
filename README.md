@@ -120,11 +120,45 @@ Accurate forecasting enables:
 
 ## 📎 How to Run
 
+## 🛠 Setup
+
+### 1️⃣ Clone repository
+
 ```bash
 git clone https://github.com/yourusername/customer-time-series-forecasting.git
 cd customer-time-series-forecasting
+```
+
+### 2️⃣ Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 3️⃣ Activate environment
+
+**Windows:**
+```bash
+venv\Scripts\activate
+```
+
+**Mac / Linux:**
+```bash
+source venv/bin/activate
+```
+
+### 4️⃣ Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
+
+### 5️⃣ Run notebook
+
+```bash
+jupyter notebook
+```
+
 
 Open the notebooks in Jupyter and run step by step.
 
